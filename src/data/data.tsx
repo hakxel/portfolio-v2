@@ -11,8 +11,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -60,12 +58,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Florida based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        on <strong className="text-stone-100"><a href="https://codemento.com" rel="author" target="_blank">Codemento.com</a></strong> to help software developers find, save and share solutions to code problems.
+        I'm a Florida based <strong className="text-stone-100">Freelance Software Developer</strong>, currently working
+        on <strong className="text-stone-100"><a href="https://codemento.com" rel="author" target="_blank">Codemento.com</a></strong> to help programmers find, save and share solutions to code problems.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I also offer <strong className="text-stone-100">custom website development</strong> for individuals and businesses,
-        because I believe everyone can benefit from a professional online presence that highlights <strong className="text-stone-100">what you have to offer</strong> to the world. If that sounds like something worth exploring, feel free to <strong className="text-stone-100">contact me</strong> below.
+        I also offer <strong className="text-stone-100">Custom Website Development</strong> for individuals and businesses,
+        because I believe everyone can benefit from a professional online presence that highlights <strong className="text-stone-100">what you have to offer</strong> to the world. If that sounds interesting to you, feel free to <strong className="text-stone-100">contact me</strong> below.
       </p>
     </>
   ),
@@ -202,18 +200,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Booking website for Ace Medical & Rehab Clinic. Uses React and PrimeReact for a responsive and intuitive UI. Includes API integrations with YouCanBook.me and EmailJS for online reservations and email communications. Hosted on Firebase.',
     url: 'https://acemedicalrehab.com',
     image: porfolioImage2,
-  },
-  {
-    title: 'Crown Clothing',
-    description: 'A sample e-commerce store. Uses React and Redux for UI and state management. Connects to Firestore Database for storage, and uses Stripe Checkout for mock-up payment functionality. Deployed on Vercel.',
-    url: 'https://crwn-clothing-silk.vercel.app',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Mole',
-    description: 'A simple whack-a-mole game. Nothing but React and CSS. Hosted on Firebase.',
-    url: 'https://hakxel-mole.firebaseapp.com',
-    image: porfolioImage4,
   }
 ];
 
